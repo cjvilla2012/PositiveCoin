@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Positive"
-            VALUE "FileDescription",    "litecoin-tx (CLI Positive transaction editor utility)"
+            VALUE "FileDescription",    "positive-tx (CLI Positive transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoin-tx"
+            VALUE "InternalName",       "positive-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoin-tx.exe"
-            VALUE "ProductName",        "litecoin-tx"
+            VALUE "OriginalFilename",   "positive-tx.exe"
+            VALUE "ProductName",        "positive-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

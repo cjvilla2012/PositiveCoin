@@ -1,6 +1,6 @@
 Start here:
 
-https://github.com/litecoin-project/litecoin/blob/master/doc/build-unix.md
+https://github.com/positive-project/positive/blob/master/doc/build-unix.md
 
 
 The Positive build instructions are insufficient for Windows.
