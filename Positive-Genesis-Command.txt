@@ -1,0 +1,7 @@
+Get Unix Timestamp:
+
+https://www.unixtimestamp.com/
+
+python genesis.py -a scrypt -z "8/20/2018 The Independent Venezuela lops five zeros off its currency" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1534786525 -n 2084527788
+
+Start 11:36
