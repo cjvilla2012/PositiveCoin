@@ -4,4 +4,16 @@ https://www.unixtimestamp.com/
 
 python genesis.py -a scrypt -z "8/20/2018 The Independent Venezuela lops five zeros off its currency" -p "040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9" -t 1534786525 -n 2084527788
 
-Start 11:36
+Start 11:36 End 11:39 3 minutes to find one
+
+04ffff001d010444382f32302f323031382054686520496e646570656e64656e742056656e657a75656c61206c6f70732066697665207a65726f73206f6666206974732063757272656e6379
+algorithm: scrypt
+merkle hash: 5e6b1dbe2bf494319559082b33a474f77a8e8e0169e20465f11eec40e407528e
+pszTimestamp: 8/20/2018 The Independent Venezuela lops five zeros off its currency
+pubkey: 040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9
+time: 1534786525
+bits: 0x1e0ffff0
+Searching for genesis hash..
+5930.0 hash/s, estimate: 201.2 hgenesis hash found!
+nonce: 2085093546
+genesis hash: 91623e655ea4518980930bbeced23f81ab56a9d1c305dc653d60e8bedd1bf5d8
