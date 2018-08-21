@@ -249,13 +249,15 @@ public:
         pchMessageStart[2] = 0xc8;
         pchMessageStart[3] = 0xf1;
 		*/
-        nDefaultPort = 19335;
+        nDefaultPort = 7788;
         nPruneAfterHeight = 1000;
 
-        genesis = CreateGenesisBlock(1486949366, 293345, 0x1e0ffff0, 1, 50 * COIN);
+		/* Same as Production for now until we figure out what causes this section to be used at wallet runtime */
+        genesis = CreateGenesisBlock(1534786525/*time*/, 2085093546/*nonce found by genesis script */, 0x1e0ffff0/*bits*/, 1, 
+			50 * COIN/*block reward*/);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x4966625a4b2851d9fdee139e56211a0d88575f59ed816ff5e6a63deb4e3e29a0"));
-        assert(genesis.hashMerkleRoot == uint256S("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(consensus.hashGenesisBlock == uint256S("0x91623e655ea4518980930bbeced23f81ab56a9d1c305dc653d60e8bedd1bf5d8"));
+        assert(genesis.hashMerkleRoot == uint256S("0x5e6b1dbe2bf494319559082b33a474f77a8e8e0169e20465f11eec40e407528e"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
