@@ -1,0 +1,21 @@
+8/21/2018
+
+We are using Bash for Windows and building and running from:
+
+cd /mnt/e/development/positivecoin
+
+Since we are building and running in Bash for Windows, the file system used at runtime is hidden away here:
+
+C:\Users\cjvilla\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs
+
+Now, a handy command to find wtf files are stored, use this bash command:
+
+find / -name wallet.dat -print 2>/dev/null
+
+(which we found at https://en.bitcoin.it/wiki/Data_directory)
+
+Et voila, it shows us:
+
+/home/cj/.positive/wallets/wallet.dat
+
+And this is where positive.conf needs to be at runtime for the Wallet to connect to us and not to Litecoin.

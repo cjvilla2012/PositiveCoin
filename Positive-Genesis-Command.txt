@@ -1,3 +1,7 @@
+NOTE--NOTE:
+
+If you are going to use a different block reward than the configured 50*COIN, then you *must* use the -v parameter in the script, which defaults to 5,000,000,000 or in other words 50 * COIN where coin is 100 million: 100,000,000
+
 Get Unix Timestamp:
 
 https://www.unixtimestamp.com/
